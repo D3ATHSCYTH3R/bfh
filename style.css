@@ -1,0 +1,24 @@
+#b2{
+    float: right;
+}
+h1{
+    color:aliceblue;
+    background: linear-gradient(to right, red,darkblue);
+}
+h2{
+    color: mediumturquoise;
+}
+body{
+    background-size: cover;
+}
+canvas{
+    border: aliceblue;
+    border-radius: 10px;
+    animation-name: hrgrh;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hrgrh{
+    from{box-shadow: 1px 1px 36px currentColor;}
+    to{box-shadow: 1px 1px 32px white;}
+}
